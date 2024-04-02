@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8.0\\App\\App\\App.csproj": {}
+    "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8\\App\\App\\App.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8.0\\App\\App\\App.csproj": {
+    "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8\\App\\App\\App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8.0\\App\\App\\App.csproj",
+        "projectUniqueName": "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8\\App\\App\\App.csproj",
         "projectName": "App",
-        "projectPath": "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8.0\\App\\App\\App.csproj",
+        "projectPath": "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8\\App\\App\\App.csproj",
         "packagesPath": "C:\\Users\\Chika\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8.0\\App\\App\\obj\\",
+        "outputPath": "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8\\App\\App\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,9 +49,33 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[7.5.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.24.0, )"
+            },
+            "RavenDB.Database": {
+              "target": "Package",
+              "version": "[3.5.9, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.5.0, )"
+            },
+            "jose-jwt": {
+              "target": "Package",
+              "version": "[4.1.0, )"
             }
           },
           "imports": [
