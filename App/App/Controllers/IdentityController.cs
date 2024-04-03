@@ -1,7 +1,8 @@
-using IdentityAPI.Middleware;
+﻿using IdentityAPI.Middleware;
 using IdentityAPI.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Raven.Imports.Newtonsoft.Json;
 
 
 namespace IdentityAPI.Controllers
@@ -10,30 +11,30 @@ namespace IdentityAPI.Controllers
     [ApiController]
     [AllowAnonymous]
     public class IdentityController
-      (IUserRepository userRepository, IJwtBuilder jwtBuilder, IEncryptor encryptor)
+      (IUserService userRepository, IJwtBuilder jwtBuilder, IEncryptor encryptor)
         : ControllerBase
     {
         [HttpPost("login")]
         public IActionResult Login([FromBody] User user,
                [FromQuery(Name = "d")] string destination = "frontend")
         {
-            var u = userRepository.GetUser(user.Email);
+            var u = userRepository.Get(user.Email);
 
             if (u == null)
             {
-                return NotFound("User not found.");
+                return NotFound("Không tìm thấy người dùng.");
             }
 
             if (destination == "backend" && !u.IsAdmin)
             {
-                return BadRequest("Could not authenticate user.");
+                return BadRequest("Không thể xác thực người dùng.");
             }
 
             var isValid = u.ValidatePassword(user.Password, encryptor);
 
             if (!isValid)
             {
-                return BadRequest("Could not authenticate user.");
+                return BadRequest("Không thể xác thực người dùng.");
             }
 
             var token = jwtBuilder.GetToken(u.Id);
@@ -44,15 +45,15 @@ namespace IdentityAPI.Controllers
         [HttpPost("register")]
         public IActionResult Register([FromBody] User user)
         {
-            var u = userRepository.GetUser(user.Email);
+            var u = userRepository.Get(user.Email);
 
             if (u != null)
             {
-                return BadRequest("User already exists.");
+                return BadRequest("Người dùng đã tồn tại.");
             }
 
             user.SetPassword(user.Password, encryptor);
-            userRepository.InsertUser(user);
+            userRepository.Insert(user);
 
             return Ok();
         }
@@ -61,18 +62,18 @@ namespace IdentityAPI.Controllers
         public IActionResult Validate([FromQuery(Name = "email")] string email,
                                       [FromQuery(Name = "token")] string token)
         {
-            var u = userRepository.GetUser(email);
+            var u = userRepository.Get(email);
 
             if (u == null)
             {
-                return NotFound("User not found.");
+                return NotFound("Không tìm thấy người dùng.");
             }
 
             var userId = jwtBuilder.ValidateToken(token);
 
             if (userId != u.Id)
             {
-                return BadRequest("Invalid token.");
+                return BadRequest("Mã không hợp lệ.");
             }
 
             return Ok(userId);

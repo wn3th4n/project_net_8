@@ -1,14 +1,9 @@
 using IdentityAPI.Extentions;
 using IdentityAPI.Middleware;
-using IdentityAPI.Models;
 using IdentityAPI.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.Extensions.Configuration;
-using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using MongoDB.Driver;
-using System.Security.Claims;
-using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,18 +11,17 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
+JwtHelper.AddJwtAuthentication(builder.Services,builder.Configuration);
 MongoDBHelper.AddMongoDb(builder.Services, builder.Configuration);
-JwtHelper.AddJwt(builder.Services,builder.Configuration);
 builder.Services.AddTransient<IEncryptor, Encryptor>();
-builder.Services.AddSingleton<IUserRepository>(sp =>
-    new UserRepository(sp.GetService<IMongoDatabase>() ??
+builder.Services.AddSingleton<IUserService>(sp =>
+    new UserService(sp.GetService<IMongoDatabase>() ??
         throw new Exception("IMongoDatabase not found"))
 );
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
 
 
 builder.Services.AddSwaggerGen(options =>
@@ -74,6 +68,10 @@ if (app.Environment.IsDevelopment())
 
 
 app.UseHttpsRedirection();
+
+app.UseMiddleware<JwtMiddleware>(); // JWT Middleware
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 

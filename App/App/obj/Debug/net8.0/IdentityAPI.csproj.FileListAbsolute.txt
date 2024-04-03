@@ -60,3 +60,5 @@ C:\Users\Chika\Documents\GitHub\project_net_8\App\App\obj\Debug\net8.0\ref\Ident
 C:\Users\Chika\Documents\GitHub\project_net_8\App\App\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Chika\Documents\GitHub\project_net_8\App\App\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\Chika\Documents\GitHub\project_net_8\App\App\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Chika\Documents\GitHub\project_net_8\App\App\bin\Debug\net8.0\JWT.dll
+C:\Users\Chika\Documents\GitHub\project_net_8\App\App\bin\Debug\net8.0\Newtonsoft.Json.dll

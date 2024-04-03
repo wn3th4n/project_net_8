@@ -1,5 +1,4 @@
 ﻿using IdentityAPI.Middleware;
-using IdentityAPI.Middleware;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 using MongoDB.Driver;
@@ -32,22 +31,44 @@ namespace IdentityAPI.Services
     }
 
 
-    public interface IUserRepository
+    public interface IUserService
     {
-        User? GetUser(string email);
-        void InsertUser(User user);
+        User? Get(string email);
+        User? GetByUID(string uid);
+        List<User> GetAll();
+        void Insert(User user);
+        void Update(string uid,User updateUser);
+        void RemoveAt(string uid);
+        void RemoveAt(User user);
     }
 
 
-    public class UserRepository(IMongoDatabase db) : IUserRepository
+    public class UserService(IMongoDatabase db) : IUserService
     {
         private readonly IMongoCollection<User> _col =
                          db.GetCollection<User>(User.DocumentName);
 
-        public User? GetUser(string email) =>
+        public User? Get(string email) =>
             _col.Find(u => u.Email == email).FirstOrDefault();
 
-        public void InsertUser(User user) =>
+        public User? GetByUID(string uid) =>
+           _col.Find(u => u.Id == uid).FirstOrDefault();
+
+        public List<User> GetAll() =>
+            _col.Find(u => true).ToList();
+
+        public void Insert(User user) =>
             _col.InsertOne(user);
+
+        public void Update(string uid,User updateUser) =>
+            _col.ReplaceOne(u => u.Id == uid, updateUser);
+
+        public void RemoveAt(string uid) =>
+            _col.DeleteOne(u => u.Id == uid);
+        
+        public void RemoveAt(User user) =>
+            _col.DeleteOne(u => u.Id == user.Id);
     }
+
+        
 }
