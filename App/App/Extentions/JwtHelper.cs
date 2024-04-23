@@ -1,6 +1,8 @@
 ﻿using IdentityAPI.Middleware;
+using IdentityAPI.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using MongoDB.Bson.Serialization.IdGenerators;
 using System.Security.Claims;
@@ -38,15 +40,27 @@ namespace IdentityAPI.Extentions
                         ValidateIssuer = false,
                         ValidateAudience = false
                     };
+                    
                 });
 
             services.AddAuthorization(x =>
             {
-                x.DefaultPolicy = new AuthorizationPolicyBuilder()
-                    .AddAuthenticationSchemes(JwtBearerDefaults.AuthenticationScheme)
-                    .RequireAuthenticatedUser()
-                    .Build();
+                x.AddPolicy("AdminOnly", policy =>
+                {
+                    policy.AuthenticationSchemes.Add(JwtBearerDefaults.AuthenticationScheme);
+                    policy.RequireAuthenticatedUser();
+                    policy.RequireClaim("isAdmin", "true"); 
+                });
+
+                // Policy for customers
+                x.AddPolicy("CustomerOnly", policy =>
+                {
+                    policy.AuthenticationSchemes.Add(JwtBearerDefaults.AuthenticationScheme);
+                    policy.RequireAuthenticatedUser();
+                    policy.RequireClaim("isAdmin", "false"); 
+                });
             });
+
         }
     }
 

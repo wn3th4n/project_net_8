@@ -1,8 +1,9 @@
 ﻿using IdentityAPI.Middleware;
 using IdentityAPI.Services;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Raven.Imports.Newtonsoft.Json;
+using System.Security.Claims;
 
 
 namespace IdentityAPI.Controllers
@@ -38,7 +39,6 @@ namespace IdentityAPI.Controllers
             }
 
             var token = jwtBuilder.GetToken(u.Id);
-
             return Ok(token);
         }
 

@@ -1,74 +1,78 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8\\App\\",
+  "WorkspaceRootPath": "C:\\Users\\his\\Documents\\GitHub\\project_net_8\\App\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|c:\\users\\chika\\documents\\github\\project_net_8\\app\\app\\services\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|solutionrelative:app\\services\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|c:\\users\\chika\\documents\\github\\project_net_8\\app\\app\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|solutionrelative:app\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|c:\\users\\chika\\documents\\github\\project_net_8\\app\\app\\controllers\\identitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|solutionrelative:app\\controllers\\identitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|c:\\users\\chika\\documents\\github\\project_net_8\\app\\app\\middleware\\iencryptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|solutionrelative:app\\middleware\\iencryptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|c:\\users\\chika\\documents\\github\\project_net_8\\app\\app\\middleware\\jwtmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|solutionrelative:app\\middleware\\jwtmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|c:\\users\\chika\\documents\\github\\project_net_8\\app\\app\\models\\mongodbconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|solutionrelative:app\\models\\mongodbconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|c:\\users\\chika\\documents\\github\\project_net_8\\app\\app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|solutionrelative:app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|c:\\users\\chika\\documents\\github\\project_net_8\\app\\app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|solutionrelative:app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|c:\\users\\chika\\documents\\github\\project_net_8\\app\\app\\extentions\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|solutionrelative:app\\extentions\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|c:\\users\\chika\\documents\\github\\project_net_8\\app\\app\\middleware\\ijwtbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|solutionrelative:app\\middleware\\ijwtbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|c:\\users\\chika\\documents\\github\\project_net_8\\app\\app\\middleware\\encrypt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|solutionrelative:app\\middleware\\encrypt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|c:\\users\\chika\\documents\\github\\project_net_8\\app\\app\\middleware\\jwtbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|c:\\users\\his\\documents\\github\\project_net_8\\app\\app\\middleware\\jwtbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|solutionrelative:app\\middleware\\jwtbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|c:\\users\\chika\\documents\\github\\project_net_8\\app\\app\\models\\mongooptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|solutionrelative:app\\models\\mongooptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|c:\\users\\his\\documents\\github\\project_net_8\\app\\app\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|solutionrelative:app\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|c:\\users\\chika\\documents\\github\\project_net_8\\app\\app\\extentions\\mongodbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|c:\\users\\his\\documents\\github\\project_net_8\\app\\app\\controllers\\identitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|solutionrelative:app\\controllers\\identitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|c:\\users\\his\\documents\\github\\project_net_8\\app\\app\\extentions\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|solutionrelative:app\\extentions\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|c:\\users\\his\\documents\\github\\project_net_8\\app\\app\\extentions\\mongodbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|solutionrelative:app\\extentions\\mongodbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|c:\\users\\chika\\documents\\github\\project_net_8\\app\\app\\app.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|solutionrelative:app\\app.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|c:\\users\\his\\documents\\github\\project_net_8\\app\\app\\middleware\\encrypt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|solutionrelative:app\\middleware\\encrypt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|c:\\users\\chika\\documents\\github\\project_net_8\\app\\app\\identityapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|c:\\users\\his\\documents\\github\\project_net_8\\app\\app\\middleware\\iencryptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|solutionrelative:app\\middleware\\iencryptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|c:\\users\\his\\documents\\github\\project_net_8\\app\\app\\middleware\\ijwtbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|solutionrelative:app\\middleware\\ijwtbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|c:\\users\\his\\documents\\github\\project_net_8\\app\\app\\services\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|solutionrelative:app\\services\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|c:\\users\\his\\documents\\github\\project_net_8\\app\\app\\services\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|solutionrelative:app\\services\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|c:\\users\\his\\documents\\github\\project_net_8\\app\\app\\identityapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|solutionrelative:app\\identityapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|c:\\users\\his\\documents\\github\\project_net_8\\app\\app\\models\\mongooptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|solutionrelative:app\\models\\mongooptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|c:\\users\\his\\documents\\github\\project_net_8\\app\\app\\models\\mongodbconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|solutionrelative:app\\models\\mongodbconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|c:\\users\\his\\documents\\github\\project_net_8\\app\\app\\middleware\\jwtmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|solutionrelative:app\\middleware\\jwtmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|c:\\users\\his\\documents\\github\\project_net_8\\app\\app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|solutionrelative:app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|c:\\users\\his\\documents\\github\\project_net_8\\app\\app\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|solutionrelative:app\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|c:\\users\\his\\documents\\github\\project_net_8\\app\\app\\identityapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|solutionrelative:app\\identityapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Chika\\Documents\\GitHub\\project_net_8\\App\\App\\Dto\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:App\\Dto\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|c:\\users\\his\\documents\\github\\project_net_8\\app\\app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{92022BCD-59E3-4096-A03E-A31F1C036E78}|App\\IdentityAPI.csproj|solutionrelative:app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -81,222 +85,238 @@
           "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "JwtMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8\\App\\App\\Middleware\\JwtMiddleware.cs",
-              "RelativeDocumentMoniker": "App\\Middleware\\JwtMiddleware.cs",
-              "ToolTip": "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8\\App\\App\\Middleware\\JwtMiddleware.cs",
-              "RelativeToolTip": "App\\Middleware\\JwtMiddleware.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA8AAAA",
+              "DocumentIndex": 7,
+              "Title": "IJwtBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\his\\Documents\\GitHub\\project_net_8\\App\\App\\Middleware\\IJwtBuilder.cs",
+              "RelativeDocumentMoniker": "App\\Middleware\\IJwtBuilder.cs",
+              "ToolTip": "C:\\Users\\his\\Documents\\GitHub\\project_net_8\\App\\App\\Middleware\\IJwtBuilder.cs",
+              "RelativeToolTip": "App\\Middleware\\IJwtBuilder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T14:32:49.532Z",
+              "WhenOpened": "2024-04-23T08:16:50.665Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IEncryptor.cs",
-              "DocumentMoniker": "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8\\App\\App\\Middleware\\IEncryptor.cs",
-              "RelativeDocumentMoniker": "App\\Middleware\\IEncryptor.cs",
-              "ToolTip": "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8\\App\\App\\Middleware\\IEncryptor.cs",
-              "RelativeToolTip": "App\\Middleware\\IEncryptor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAVAAAA",
+              "DocumentIndex": 0,
+              "Title": "JwtBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\his\\Documents\\GitHub\\project_net_8\\App\\App\\Middleware\\JwtBuilder.cs",
+              "RelativeDocumentMoniker": "App\\Middleware\\JwtBuilder.cs",
+              "ToolTip": "C:\\Users\\his\\Documents\\GitHub\\project_net_8\\App\\App\\Middleware\\JwtBuilder.cs",
+              "RelativeToolTip": "App\\Middleware\\JwtBuilder.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowCoAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T14:10:06.24Z",
+              "WhenOpened": "2024-04-23T08:16:48.041Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8\\App\\App\\Controllers\\AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\his\\Documents\\GitHub\\project_net_8\\App\\App\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "App\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8\\App\\App\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\his\\Documents\\GitHub\\project_net_8\\App\\App\\Controllers\\AccountController.cs",
               "RelativeToolTip": "App\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAkwCcAAAAtAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T03:52:26.221Z",
+              "WhenOpened": "2024-04-08T10:59:44.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\his\\Documents\\GitHub\\project_net_8\\App\\App\\Services\\User.cs",
+              "RelativeDocumentMoniker": "App\\Services\\User.cs",
+              "ToolTip": "C:\\Users\\his\\Documents\\GitHub\\project_net_8\\App\\App\\Services\\User.cs",
+              "RelativeToolTip": "App\\Services\\User.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAQwCsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T10:58:04.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MongoDBConfig.cs",
+              "DocumentMoniker": "C:\\Users\\his\\Documents\\GitHub\\project_net_8\\App\\App\\Models\\MongoDBConfig.cs",
+              "RelativeDocumentMoniker": "App\\Models\\MongoDBConfig.cs",
+              "ToolTip": "C:\\Users\\his\\Documents\\GitHub\\project_net_8\\App\\App\\Models\\MongoDBConfig.cs",
+              "RelativeToolTip": "App\\Models\\MongoDBConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T15:26:51.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Roles.cs",
+              "DocumentMoniker": "C:\\Users\\his\\Documents\\GitHub\\project_net_8\\App\\App\\Services\\Roles.cs",
+              "RelativeDocumentMoniker": "App\\Services\\Roles.cs",
+              "ToolTip": "C:\\Users\\his\\Documents\\GitHub\\project_net_8\\App\\App\\Services\\Roles.cs",
+              "RelativeToolTip": "App\\Services\\Roles.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T15:04:50.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MongoDBHelper.cs",
+              "DocumentMoniker": "C:\\Users\\his\\Documents\\GitHub\\project_net_8\\App\\App\\Extentions\\MongoDBHelper.cs",
+              "RelativeDocumentMoniker": "App\\Extentions\\MongoDBHelper.cs",
+              "ToolTip": "C:\\Users\\his\\Documents\\GitHub\\project_net_8\\App\\App\\Extentions\\MongoDBHelper.cs",
+              "RelativeToolTip": "App\\Extentions\\MongoDBHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T08:19:10.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JwtHelper.cs",
+              "DocumentMoniker": "C:\\Users\\his\\Documents\\GitHub\\project_net_8\\App\\App\\Extentions\\JwtHelper.cs",
+              "RelativeDocumentMoniker": "App\\Extentions\\JwtHelper.cs",
+              "ToolTip": "C:\\Users\\his\\Documents\\GitHub\\project_net_8\\App\\App\\Extentions\\JwtHelper.cs",
+              "RelativeToolTip": "App\\Extentions\\JwtHelper.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAgwDcAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T08:17:30.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IEncryptor.cs",
+              "DocumentMoniker": "C:\\Users\\his\\Documents\\GitHub\\project_net_8\\App\\App\\Middleware\\IEncryptor.cs",
+              "RelativeDocumentMoniker": "App\\Middleware\\IEncryptor.cs",
+              "ToolTip": "C:\\Users\\his\\Documents\\GitHub\\project_net_8\\App\\App\\Middleware\\IEncryptor.cs",
+              "RelativeToolTip": "App\\Middleware\\IEncryptor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T15:22:57.969Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "MongoDBConfig.cs",
-              "DocumentMoniker": "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8\\App\\App\\Models\\MongoDBConfig.cs",
-              "RelativeDocumentMoniker": "App\\Models\\MongoDBConfig.cs",
-              "ToolTip": "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8\\App\\App\\Models\\MongoDBConfig.cs",
-              "RelativeToolTip": "App\\Models\\MongoDBConfig.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA5AAAA",
+              "Title": "Encrypt.cs",
+              "DocumentMoniker": "C:\\Users\\his\\Documents\\GitHub\\project_net_8\\App\\App\\Middleware\\Encrypt.cs",
+              "RelativeDocumentMoniker": "App\\Middleware\\Encrypt.cs",
+              "ToolTip": "C:\\Users\\his\\Documents\\GitHub\\project_net_8\\App\\App\\Middleware\\Encrypt.cs",
+              "RelativeToolTip": "App\\Middleware\\Encrypt.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T13:37:12.879Z",
+              "WhenOpened": "2024-04-10T03:40:35.536Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "IdentityController.cs",
-              "DocumentMoniker": "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8\\App\\App\\Controllers\\IdentityController.cs",
+              "DocumentMoniker": "C:\\Users\\his\\Documents\\GitHub\\project_net_8\\App\\App\\Controllers\\IdentityController.cs",
               "RelativeDocumentMoniker": "App\\Controllers\\IdentityController.cs",
-              "ToolTip": "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8\\App\\App\\Controllers\\IdentityController.cs",
+              "ToolTip": "C:\\Users\\his\\Documents\\GitHub\\project_net_8\\App\\App\\Controllers\\IdentityController.cs",
               "RelativeToolTip": "App\\Controllers\\IdentityController.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAgwDYAAAA3AAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAA6wCcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T13:48:31.323Z",
+              "WhenOpened": "2024-04-08T11:02:36.012Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8\\App\\App\\Program.cs",
-              "RelativeDocumentMoniker": "App\\Program.cs",
-              "ToolTip": "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8\\App\\App\\Program.cs",
-              "RelativeToolTip": "App\\Program.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAAEgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-30T05:20:23.176Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IJwtBuilder.cs",
-              "DocumentMoniker": "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8\\App\\App\\Middleware\\IJwtBuilder.cs",
-              "RelativeDocumentMoniker": "App\\Middleware\\IJwtBuilder.cs",
-              "ToolTip": "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8\\App\\App\\Middleware\\IJwtBuilder.cs",
-              "RelativeToolTip": "App\\Middleware\\IJwtBuilder.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T14:11:10.149Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "JwtHelper.cs",
-              "DocumentMoniker": "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8\\App\\App\\Extentions\\JwtHelper.cs",
-              "RelativeDocumentMoniker": "App\\Extentions\\JwtHelper.cs",
-              "ToolTip": "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8\\App\\App\\Extentions\\JwtHelper.cs",
-              "RelativeToolTip": "App\\Extentions\\JwtHelper.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwCYAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T02:27:01.695Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MongoOptions.cs",
-              "DocumentMoniker": "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8\\App\\App\\Models\\MongoOptions.cs",
-              "RelativeDocumentMoniker": "App\\Models\\MongoOptions.cs",
-              "ToolTip": "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8\\App\\App\\Models\\MongoOptions.cs",
-              "RelativeToolTip": "App\\Models\\MongoOptions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T02:59:31.944Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "JwtBuilder.cs",
-              "DocumentMoniker": "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8\\App\\App\\Middleware\\JwtBuilder.cs",
-              "RelativeDocumentMoniker": "App\\Middleware\\JwtBuilder.cs",
-              "ToolTip": "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8\\App\\App\\Middleware\\JwtBuilder.cs",
-              "RelativeToolTip": "App\\Middleware\\JwtBuilder.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAAAIAAAA",
+              "Title": "MongoOptions.cs",
+              "DocumentMoniker": "C:\\Users\\his\\Documents\\GitHub\\project_net_8\\App\\App\\Models\\MongoOptions.cs",
+              "RelativeDocumentMoniker": "App\\Models\\MongoOptions.cs",
+              "ToolTip": "C:\\Users\\his\\Documents\\GitHub\\project_net_8\\App\\App\\Models\\MongoOptions.cs",
+              "RelativeToolTip": "App\\Models\\MongoOptions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T14:12:11.648Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8\\App\\App\\appsettings.json",
-              "RelativeDocumentMoniker": "App\\appsettings.json",
-              "ToolTip": "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8\\App\\App\\appsettings.json",
-              "RelativeToolTip": "App\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-01T16:40:33.683Z",
+              "WhenOpened": "2024-04-23T08:16:56.276Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Encrypt.cs",
-              "DocumentMoniker": "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8\\App\\App\\Middleware\\Encrypt.cs",
-              "RelativeDocumentMoniker": "App\\Middleware\\Encrypt.cs",
-              "ToolTip": "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8\\App\\App\\Middleware\\Encrypt.cs",
-              "RelativeToolTip": "App\\Middleware\\Encrypt.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T13:47:53.33Z"
+              "Title": "IdentityAPI",
+              "DocumentMoniker": "C:\\Users\\his\\Documents\\GitHub\\project_net_8\\App\\App\\IdentityAPI.csproj",
+              "RelativeDocumentMoniker": "App\\IdentityAPI.csproj",
+              "ToolTip": "C:\\Users\\his\\Documents\\GitHub\\project_net_8\\App\\App\\IdentityAPI.csproj",
+              "RelativeToolTip": "App\\IdentityAPI.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-23T16:57:19.582Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "MongoDBHelper.cs",
-              "DocumentMoniker": "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8\\App\\App\\Extentions\\MongoDBHelper.cs",
-              "RelativeDocumentMoniker": "App\\Extentions\\MongoDBHelper.cs",
-              "ToolTip": "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8\\App\\App\\Extentions\\MongoDBHelper.cs",
-              "RelativeToolTip": "App\\Extentions\\MongoDBHelper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAmAAAA",
+              "Title": "JwtMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\his\\Documents\\GitHub\\project_net_8\\App\\App\\Middleware\\JwtMiddleware.cs",
+              "RelativeDocumentMoniker": "App\\Middleware\\JwtMiddleware.cs",
+              "ToolTip": "C:\\Users\\his\\Documents\\GitHub\\project_net_8\\App\\App\\Middleware\\JwtMiddleware.cs",
+              "RelativeToolTip": "App\\Middleware\\JwtMiddleware.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T02:48:54.616Z"
+              "WhenOpened": "2024-04-09T15:26:44.128Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "App.http",
-              "DocumentMoniker": "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8\\App\\App\\App.http",
-              "RelativeDocumentMoniker": "App\\App.http",
-              "ToolTip": "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8\\App\\App\\App.http",
-              "RelativeToolTip": "App\\App.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-04-02T02:45:54.115Z"
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\his\\Documents\\GitHub\\project_net_8\\App\\App\\Program.cs",
+              "RelativeDocumentMoniker": "App\\Program.cs",
+              "ToolTip": "C:\\Users\\his\\Documents\\GitHub\\project_net_8\\App\\App\\Program.cs",
+              "RelativeToolTip": "App\\Program.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB8AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T08:16:58.654Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "IdentityAPI.csproj",
-              "DocumentMoniker": "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8\\App\\App\\IdentityAPI.csproj",
-              "RelativeDocumentMoniker": "App\\IdentityAPI.csproj",
-              "ToolTip": "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8\\App\\App\\IdentityAPI.csproj",
-              "RelativeToolTip": "App\\IdentityAPI.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-01T16:34:36.088Z"
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\his\\Documents\\GitHub\\project_net_8\\App\\App\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "App\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\his\\Documents\\GitHub\\project_net_8\\App\\App\\Properties\\launchSettings.json",
+              "RelativeToolTip": "App\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABsAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-08T11:03:00.171Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "user.cs",
-              "DocumentMoniker": "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8\\App\\App\\Dto\\user.cs",
-              "RelativeDocumentMoniker": "App\\Dto\\user.cs",
-              "ToolTip": "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8\\App\\App\\Dto\\user.cs",
-              "RelativeToolTip": "App\\Dto\\user.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T05:13:57.69Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
+              "Title": "IdentityAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\his\\Documents\\GitHub\\project_net_8\\App\\App\\IdentityAPI.csproj",
+              "RelativeDocumentMoniker": "App\\IdentityAPI.csproj",
+              "ToolTip": "C:\\Users\\his\\Documents\\GitHub\\project_net_8\\App\\App\\IdentityAPI.csproj",
+              "RelativeToolTip": "App\\IdentityAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-08T11:00:01.522Z"
+            },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8\\App\\App\\Services\\User.cs",
-              "RelativeDocumentMoniker": "App\\Services\\User.cs",
-              "ToolTip": "C:\\Users\\Chika\\Documents\\GitHub\\project_net_8\\App\\App\\Services\\User.cs",
-              "RelativeToolTip": "App\\Services\\User.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAswDUAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T13:24:40.722Z",
-              "EditorCaption": ""
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\his\\Documents\\GitHub\\project_net_8\\App\\App\\appsettings.json",
+              "RelativeDocumentMoniker": "App\\appsettings.json",
+              "ToolTip": "C:\\Users\\his\\Documents\\GitHub\\project_net_8\\App\\App\\appsettings.json",
+              "RelativeToolTip": "App\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-08T08:38:44.005Z"
             }
           ]
         }

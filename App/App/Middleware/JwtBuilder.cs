@@ -1,4 +1,5 @@
 ﻿
+using IdentityAPI.Services;
 using JWT.Builder;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Logging;
@@ -18,7 +19,7 @@ namespace IdentityAPI.Middleware
     }
     #endregion
 
-    public class JwtBuilder(IOptions<JwtOptions> options) : IJwtBuilder
+    public class JwtBuilder(IOptions<JwtOptions> options, IUserService userRepository) : IJwtBuilder 
     {
         private readonly JwtOptions _options = options.Value;
 
@@ -31,10 +32,14 @@ namespace IdentityAPI.Middleware
                              (Encoding.UTF8.GetBytes(_options.Secret));
             var signingCredentials = new SigningCredentials
                                      (signingKey, SecurityAlgorithms.HmacSha256);
+
+            User user = userRepository.GetByUID(userId);
+            bool isAdmin = user != null && user.IsAdmin;
             var claims = new[]
             {
-            new Claim("userId", userId)
-        };
+                new Claim("userId", userId),
+                new Claim("isAdmin", isAdmin ? "true" : "false"),
+            };
             var expirationDate = DateTime.Now.AddMinutes(_options.ExpiryMinutes);
             var jwt = new JwtSecurityToken(claims: claims,
                       signingCredentials: signingCredentials, expires: expirationDate);

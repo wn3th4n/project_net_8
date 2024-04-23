@@ -7,13 +7,14 @@ namespace IdentityAPI.Controllers
 {
     [Route("api/[Controller]")]
     [ApiController]
-    [Authorize]
     public class AccountController(IUserService userRepository, IJwtBuilder jwtBuilder, IEncryptor encryptor)
         : ControllerBase
     {
         [HttpGet("get")]
+        [Authorize(Policy = "AdminOnly")]
         public IActionResult Get() =>
             new JsonResult(userRepository.GetAll());
+
 
 
         [HttpGet("get/{id}", Name = "lấy user bằng mail")]

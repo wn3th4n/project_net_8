@@ -2,6 +2,7 @@
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 using MongoDB.Driver;
+using System.Data;
 
 
 namespace IdentityAPI.Services
@@ -27,10 +28,9 @@ namespace IdentityAPI.Services
         public bool ValidatePassword(string password, IEncryptor encryptor) =>
             Password == encryptor.GetHash(password, Salt);
 
-
     }
 
-
+  
     public interface IUserService
     {
         User? Get(string email);
